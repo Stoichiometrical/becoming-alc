@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/becoming-alc/static/css/main.03f5ca91.css",
-    "main.js": "/becoming-alc/static/js/main.145f0357.js",
+    "main.js": "/becoming-alc/static/js/main.619b8678.js",
     "index.html": "/becoming-alc/index.html",
     "main.03f5ca91.css.map": "/becoming-alc/static/css/main.03f5ca91.css.map",
-    "main.145f0357.js.map": "/becoming-alc/static/js/main.145f0357.js.map"
+    "main.619b8678.js.map": "/becoming-alc/static/js/main.619b8678.js.map"
   },
   "entrypoints": [
     "static/css/main.03f5ca91.css",
-    "static/js/main.145f0357.js"
+    "static/js/main.619b8678.js"
   ]
 }
