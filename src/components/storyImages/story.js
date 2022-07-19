@@ -23,7 +23,7 @@ export function readArasen () {
 
     storyRead[0].innerHTML = arasen
     storyHead[0].innerHTML = "ARASEN PARNAMUM"
-    storyPhoto[0].setAttribute("src", "/assets/people/arasen.jpg")
+    storyPhoto[0].setAttribute("src", "assets/people/arasen.jpg")
 
 }
 
@@ -40,7 +40,7 @@ export function readNancy () {
         "The best advice I would give to prospective students would be to be open-minded and eager to build themselves and their brand while enriching their mind with smart tactical knowledge. They should as well as continue to develop their entrepreneurial spirit alongside pursuing their degree.\n"
     storyRead[0].innerHTML = rokia
     storyHead[0].innerHTML = "ROKIA NANCY"
-    storyPhoto[0].setAttribute("src", "/assets/people/rokia.jpg")
+    storyPhoto[0].setAttribute("src", "assets/people/rokia.jpg")
 }
 
 export function readReggie () {
@@ -57,7 +57,7 @@ export function readReggie () {
         "Suspendisse maximus gravida feugiat. Mauris sapien orci, feugiat id dolor vel, aliquam tempus dolor. Mauris ac lectus vel leo pellentesque tristique eu fringilla est. Sed quis sodales ligula. Integer tempus ut nisl et interdum. Duis malesuada, ante at dictum vulputate, tortor nibh tincidunt lectus, a cursus mauris sem sit amet sem. Quisque tempor ipsum ac auctor sollicitudin. Mauris pellentesque neque at leo tempor, et tempor diam cursus. Donec consequat sit amet mi id dapibus. Aliquam erat volutpat. Nulla porta elit vel nulla viverra vestibulum. Vestibulum at vehicula dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus quis porttitor lorem. Aliquam erat volutpat. Suspendisse scelerisque tortor ut dolor"
     storyRead[0].innerHTML = reggie
     storyHead[0].innerHTML = "REGGIE OKOKO"
-    storyPhoto[0].setAttribute("src", "/assets/people/p234.jpg")
+    storyPhoto[0].setAttribute("src", "assets/people/p234.jpg")
 }
 
 export function readTiam() {
@@ -75,7 +75,7 @@ export function readTiam() {
     storySection[0].style.display="flex"
     storyRead[0].innerHTML = tiam
     storyHead[0].innerHTML = "TIAM LYNN"
-    storyPhoto[0].setAttribute("src", "/assets/people/tiamh.jpg")
+    storyPhoto[0].setAttribute("src", "assets/people/tiamh.jpg")
 }
 
 export function readAmos () {
@@ -91,7 +91,7 @@ export function readAmos () {
     storySection[0].style.display="flex"
     storyRead[0].innerHTML = amos
     storyHead[0].innerHTML = "AMOS KASUMBA"
-    storyPhoto[0].setAttribute("src", "/assets/people/p4.jpg")
+    storyPhoto[0].setAttribute("src", "assets/people/p4.jpg")
 }
 
 export function readDavid () {
@@ -107,7 +107,7 @@ export function readDavid () {
     storySection[0].style.display="flex"
     storyRead[0].innerHTML = david
     storyHead[0].innerHTML = "DAVID EAGLES"
-    storyPhoto[0].setAttribute("src", "/assets/people/david.jpg")
+    storyPhoto[0].setAttribute("src", "assets/people/david.jpg")
 }
 
 
