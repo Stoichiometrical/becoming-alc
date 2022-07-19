@@ -1,0 +1,106 @@
+.contactWrapper{
+    display:flex;
+    flex-wrap:wrap;
+    flex:1;
+    width:100%;
+    height:80vh;
+    justify-content:center;
+    margin-bottom:10px;
+    /*margin-left:10px;*/
+}
+
+.imageSide{
+    /*flex:1;*/
+}
+
+.formImg{
+    width:100%;
+    height:80vh;
+    object-fit:cover;
+    border-radius:15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form{
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow:  28px 28px 56px #bebebe,
+    -28px -28px 56px #ffffff;
+}
+.formSide{
+    display:flex;
+    width:50%;
+    /*flex:1;*/
+
+}
+
+
+.contactForm{
+    margin-top:10px;
+    z-index:999;
+}
+.formWrap{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:10px;
+    width:auto;
+    outline:none;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    /*background: #e0e0e0;*/
+    box-shadow:  28px 28px 56px #bebebe,
+    -28px -28px 56px #ffffff;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.message{
+    font-size:20px;
+    font-weight:500;
+    text-align:center;
+}
+
+.formfield{
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    border:none;
+    align-self:center;
+}
+
+.formfield:active{
+    outline:none;
+}
+
+input[type="submit"]{
+    width:100px;
+    height:50px;
+    background-color:blue;
+    color:white;
+    border-radius:10px;
+    padding:10px;
+    border:none;
+    margin:10px;
+    align-self: center;
+}
+
+input[type="submit"]:hover{
+    background-color:white;
+    color:blue;
+    font-weight:bold;
+}
+
+textarea{
+    height:300px;
+}
+
+label{
+    font-size:15px;
+    font-weight:500;
+    align-self:center;
+    color:white;
+}

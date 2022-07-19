@@ -1,0 +1,63 @@
+.start-text{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:10px 25px;
+    margin:0;
+
+}
+.text{
+    width:75%;
+    font-weight:500;
+    font-size:2rem;
+    color:blue;
+    word-wrap: break-word;
+
+}
+
+.carousel{
+    width:70%;
+
+}
+
+.carouselWrapper{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    height:calc(100vh - 55px);
+    margin-bottom: 25px;
+    /*position:relative;*/
+
+}
+
+.carouselInner{
+    height:500px;
+    padding:10px;
+}
+
+
+
+.carouselImg{
+    height:500px;
+    object-fit: cover;
+    object-position:center;
+}
+
+
+
+.c-header{
+    position:absolute;
+   margin-top:-35%;
+    margin-left:25%;
+    font-size:4rem;
+    font-weight:bold;
+}
+
+/*Mauritius tour first text customization*/
+.first{
+    position:absolute;
+    margin-top:-30%;
+    margin-left:20%;
+}

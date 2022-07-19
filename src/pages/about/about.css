@@ -1,0 +1,58 @@
+.j-c{
+
+}
+.carouselWrapper{
+
+
+}
+
+.carouselInner{
+
+}
+
+.carousel{
+    width:100%;
+    position:relative;
+
+
+}
+
+.headerTxt{
+    font-size:4rem;
+    font-weight:bold;
+}
+
+.findMore{
+    font-size:2rem;
+    border:none;
+    outline:none;
+    color:white;
+    font-weight:600;
+    background-color:transparent;
+    top:10%;
+    left:-10%;
+}
+
+.fingerArrow{
+    width:100px;
+    height:100px;
+    left:-15%;
+}
+
+.arrowContainer{
+    width:100%;
+
+}
+.carouselTxt{
+    display:flex;
+    flex-flow:column wrap;
+    word-wrap:break-word;
+    top:30%;
+    font-size:30px;
+
+}
+
+.carouselImg{
+    height:500px;
+    object-fit:cover;
+}

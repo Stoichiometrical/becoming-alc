@@ -1,0 +1,75 @@
+.story{
+    display:flex;
+    justify-content:center;
+}
+
+.storyWrapper{
+    width:70vw;
+    height:auto;
+    padding:10px;
+    justify-content:center;
+    margin-bottom:10px;
+    /* From https://css.glass */
+    background: rgba(71, 190, 194, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+    border: 1px solid rgba(71, 190, 194, 0.3);
+}
+
+.readTop{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.readImg{
+    width: 300px;
+    height: 300px;
+    border-radius:25px;
+}
+
+.readTitle{
+    font-size:2em;
+    font-weight:bold;
+    text-align:center;
+    color:blue;
+}
+
+.readIcons{
+    display:block;
+    width:100%;
+    text-align:center;
+}
+
+.readLength{
+    display:flex;
+    text-align:center;
+    padding:10px;
+    color:blue;
+}
+
+.icons{
+    color:blue;
+    width:100px;
+    font-size:100px;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+#cancelIcon{
+    align-self: flex-end;
+    font-size:35px;
+    color:red;
+    cursor:pointer;
+}
+
+.readWrap{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+
+

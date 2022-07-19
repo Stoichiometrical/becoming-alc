@@ -1,0 +1,40 @@
+.navBar{
+    width:100%;
+    height:55px;
+    margin-bottom:5px;
+}
+
+.navbarWrapper{
+   padding:10px;
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+    /*background-color:blue;*/
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+
+}
+
+.img-logo{
+    width:100px;
+    height:50px;
+    object-fit:cover;
+}
+
+.navlist{
+   padding:0;
+    margin:0;
+    width:100%;
+    text-align:center;
+}
+.navItem{
+     display:inline;
+}
+
+.navItem a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    color:white;
+}

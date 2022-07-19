@@ -1,0 +1,132 @@
+.storiesContainer{
+
+}
+
+.storiesWrapper{
+    display:flex;
+    flex-flow:column wrap;
+    /*align-items: center;*/
+    margin:0 5%;
+    margin-bottom:10px;
+}
+
+.first-row{
+    display:flex;
+}
+
+.storyPack{
+    position: relative;
+    margin:5px;
+}
+
+.storyImg{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.storyTitle{
+    color: white;
+    font-size: 40px;
+    font-family:Roboto,Work Sans,serif;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 30%;
+}
+
+.storyOverlay{
+    display:flex;
+    flex-flow: column wrap;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.storySummary{
+    white-space: normal;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.readmore{
+    width:8em;
+    height:3em;
+    text-align:center;
+    background-color: white;
+    color: #0a53be;
+    font-weight: bold;
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    opacity: 1;
+    top:65%;
+    left:40%;
+    position: absolute;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.readmore a{
+    text-decoration: none;
+}
+
+.storyPack:hover .storyOverlay {
+    width: 80%;
+    opacity: 0.6;
+}
+
+.second-row{
+    display:flex;
+    width:100%;
+}
+
+.third-row{
+    display:flex;
+
+}
+
+.fourth-row{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Styling Story Packs*/
+.sp1{
+  flex:2  ;
+}
+
+.sp2{
+    flex:3;
+}
+
+.sp3 {
+    width:100%;
+
+}
+
+.sp4{
+ flex:2;
+}
+
+.sp5{
+ flex:1;
+}
+
+.sp6{
+
+}
+

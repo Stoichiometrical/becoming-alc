@@ -1,0 +1,67 @@
+.carouselWrapper{
+    margin-bottom: 10px;
+}
+
+.carousel{
+    width:100%;
+    position:relative;
+    margin-bottom: 10px;
+
+
+}
+
+.headerTxt{
+    font-size:4rem;
+    font-weight:bold;
+}
+
+
+.findMore{
+    display:block;
+    font-size:0.9em;
+    border:none;
+    outline:none;
+    color:white;
+    font-weight:600;
+    background-color:transparent;
+    top:10%;
+    left:-10%;
+}
+
+.fingerArrow{
+    width:100px;
+    height:100px;
+    left:-15%;
+}
+
+.arrowContainer{
+    width:100%;
+
+}
+.carouselTxt{
+    display:flex;
+    flex-flow:column wrap;
+    word-wrap:break-word;
+    top:10%;
+    font-size:30px;
+}
+
+.startTxt{
+    display:flex;
+    flex-flow:column wrap;
+    word-wrap:break-word;
+    top:30%;
+    font-size:30px;
+}
+
+.carouselImg{
+    height:500px;
+    object-fit:cover;
+    object-position: center;
+}
+
+/*Image Customizations*/
+.st{
+    object-position:top 5px;
+}
+

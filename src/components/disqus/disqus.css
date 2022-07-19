@@ -1,0 +1,15 @@
+
+.disqusWrapper{
+    display:flex;
+    width:100%;
+    flex-flow: column wrap;
+}
+
+.shareStory{
+    width:100%;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    color:blue;
+
+}

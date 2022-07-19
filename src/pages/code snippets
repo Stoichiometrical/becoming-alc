@@ -1,0 +1,28 @@
+
+
+                            <li className="navItem" ><Link to={'/pages/home/Home'}>Home</Link></li>
+                            <li className="navItem" ><Link to={'/pages/home/Journey'}>The Journey</Link></li>
+                            <li className="navItem" ><Link to={'/pages/home/About'}>About Us</Link></li>
+
+
+
+                            ////Right Version
+                             <li className="navItem" ><a href to={'/pages/Homepage'}>Home</Link></li>
+                              <li className="navItem" ><a href="../pages/Journey.jsx">The Journey</a></li>
+                             <li className="navItem" ><a href="../pages/About.jsx">About Us</a></li>
+
+                             <li className="navItem" ><a href="../pages/Home.jsx">Home</a></li>
+                                                         <li className="navItem" ><a href="../pages/Journey.jsx">The Journey</a></li>
+                                                         <li className="navItem" ><a href="../pages/About.jsx">About Us</a></li>
+
+
+
+
+
+
+
+
+         <li className="navItem" ><Link to={ Home }>Home</Link></li>
+                       <li className="navItem" ><Link to={ Journey }>Journey</Link></li>
+                               <li className="navItem" ><Link to={ About }>About Us</Link></li>
+                            The upcoming months got even better and better since I personally had the privilege of meeting people from all over Africa

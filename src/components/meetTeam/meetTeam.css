@@ -1,0 +1,55 @@
+
+.teamWrapper{
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:5px;
+}
+.cardStyle{
+    width:300px;
+    /*height:300px;*/
+    margin:5px 10px;
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.team-heading{
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    padding:10px;
+    color:blue;
+}
+
+.cardImg{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+}
+
+.cardBody{
+    height:100px;
+}
+.cardTitle{
+    text-align:center;
+    color:blue;
+}
+.cardText{
+    text-align:center;
+    font-weight:400;
+    color:blue;
+}
+
+.team{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    overflow-x: auto;
+}
